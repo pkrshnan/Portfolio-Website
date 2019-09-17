@@ -4,19 +4,19 @@ body {
 
 /* Backgrounds */ 
 .background-toronto { 
-  background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)),  url("/images/toronto.jpg");
+  background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)),  url("../../images/toronto.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .background-coding {
-  background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)),  url("/images/coding.jpg");
+  background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)),  url("../../images/coding.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .background-skyline {
-  background: linear-gradient( rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),  url("/images/skyline.jpg");
+  background: linear-gradient( rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),  url("../../images/skyline.jpg");
   background-position: center;
   background-size: cover;
 }

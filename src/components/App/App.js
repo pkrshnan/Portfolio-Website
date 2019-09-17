@@ -3,9 +3,9 @@ import React from 'react';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import { Heading, Container, Hero } from 'react-bulma-components'
 
-import NavigationBar from './components/NavigationBar/NavigationBar'
-import Experience from './components/Experience/Experience'
-import Projects from './components/Projects/Projects'
+import NavigationBar from '../NavigationBar/NavigationBar'
+import Experience from '../Experience/Experience'
+import Projects from '..//Projects/Projects'
 
 import './App.css';
 

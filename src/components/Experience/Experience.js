@@ -1,6 +1,11 @@
 import React from 'react'
 import { Section, Container, Heading, Box, Image } from 'react-bulma-components'
+
+// CSS
 import './style.css'
+
+// Images
+import opslevel from '../../images/opslevel.png'
 
 export default class Experience extends React.Component {
   render() {
@@ -12,7 +17,7 @@ export default class Experience extends React.Component {
             <div className="experience-heading">
               <Image 
                 size={24}
-                src="/images/opslevel.png"
+                src={opslevel}
               />
               <Heading 
                 className="experience-title"
