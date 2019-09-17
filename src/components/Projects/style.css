@@ -1,0 +1,31 @@
+.section-heading {
+  text-align: center;
+  color: white;
+}
+
+.project-card-left {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 10pt;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.project-card-right {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 10pt;
+  margin-bottom: 2em;
+  text-align: right;
+}
+
+.project-card-left h1, .project-card-right h1 {
+  color: #fff;
+}
+
+.project-subpoints {
+  color: #fff;
+  list-style-type: initial;
+  margin-left: 1.52em;
+}
+

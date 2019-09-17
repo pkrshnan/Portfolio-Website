@@ -1,0 +1,35 @@
+.section-heading {
+  text-align: center;
+  color: white;
+}
+
+.experience-item {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 10pt;
+}
+
+.experience-title {
+  color: #fff;
+  margin-left: 10px;
+  height: 1.5rem;
+}
+
+.experience-heading {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 0.5em;
+}
+
+.experience-stack {
+  margin-bottom: 1em;
+  color: #fff;
+  font-style: italic;
+}
+
+.experience-subpoints {
+  color: #fff;
+  list-style-type: initial;
+  margin-left: 1.52em;
+}
