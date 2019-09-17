@@ -16,7 +16,7 @@ body {
 }
 
 .background-skyline {
-  background: linear-gradient( rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),  url("../../images/skyline.jpg");
+  background: linear-gradient( rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)),  url("../../images/skyline.jpg");
   background-position: center;
   background-size: cover;
 }
