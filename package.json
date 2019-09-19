@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "http://pkrshnan.github.io",
+  "homepage": "https://pkrishnan.me",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",

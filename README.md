@@ -1,3 +1,3 @@
-Source for my personal website, viewable at my ![website](pkrishnan.me). 
+Source for my personal website, viewable [here](http://pkrishnan.me). 
 
-Built in React with Bulma.io
+This was built in React, from scratch with the help of Bulma CSS. 
