@@ -24,9 +24,20 @@ function App() {
           <Container>
             <Heading subtitle size={6}>Hi, my name is</Heading>
             <Heading size={1}>Pranav Krishnan</Heading>
-            <Heading subtitle size={4}>
+            <Heading subtitle size={4} className="is-size-5-mobile">
               I'm a Computer Science student at the University of Waterloo. I have a passion for data science, e-sports, and creating awesome software.
             </Heading>
+            <ul className="links">
+              <li className="is-size-5">
+                <a href="https://github.com/pkrshnan" target="_blank" rel="noreferrer noopener">Github</a>
+              </li>
+              <li className="is-size-5">
+                <a href="https://linkedin.com/in/pkrshnan" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+              </li>
+              <li className="is-size-5">
+                <a href={require("./resume.pdf")} target="_blank" rel="noreferrer noopener">Resume</a>
+              </li>
+            </ul>
           </Container>
         </Hero.Body>
       </Hero>

@@ -34,4 +34,13 @@ a.navbar-item:hover {
   background-color: rgba(0,0,0,0)
 }
 
+.links li { 
+  display: inline;
+}
+
+.links li + li:before{
+    content: " | ";
+    padding: 0 0.5em;
+}
+
 

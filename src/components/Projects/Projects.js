@@ -17,7 +17,7 @@ export default class Projects extends React.Component {
           <Heading className="section-heading">Projects</Heading>
           <Columns>
             <Columns.Column size="one-half">
-              <a href="https://github.com/pkrshnan/personal-website" target="_blank">
+              <a href="https://github.com/pkrshnan/personal-website" target="_blank" rel="noreferrer noopener">
                 <Card className="project-card">
                   <Image src={personalWebsite} />
                   <Card.Content>
@@ -31,7 +31,7 @@ export default class Projects extends React.Component {
               </a>
             </Columns.Column>
             <Columns.Column size="one-half">
-              <a href="https://github.com/pkrshnan/aggregate" target="_blank">
+              <a href="https://github.com/pkrshnan/aggregate" target="_blank" rel="noreferrer noopener">
                 <Card className="project-card">
                   <Image src={aggregate} />
                   <Card.Content>
@@ -47,9 +47,9 @@ export default class Projects extends React.Component {
           </Columns>
           <Columns>
             <Columns.Column size="one-half">
-              <a href="https://github.com/pkrshnan/remindme" target="_blank">
+              <a href="https://github.com/pkrshnan/remindme" target="_blank" rel="noreferrer noopener">
                 <Card className="project-card">
-                  <Image src={personalWebsite} />
+                  {/* <Image src={personalWebsite} /> */}
                   <Card.Content>
                     <Heading size={5}>RemindMe!</Heading>
                     <p className="project-stack">Java, Android Studio</p>
@@ -61,9 +61,9 @@ export default class Projects extends React.Component {
               </a>
             </Columns.Column>
             <Columns.Column size="one-half">
-              <a href="https://github.com/pkrshnan/budgetbuddy-java" target="_blank">
+              <a href="https://github.com/pkrshnan/budgetbuddy" target="_blank" rel="noreferrer noopener">
                 <Card className="project-card">
-                  <Image src={personalWebsite} />
+                  {/* <Image src={personalWebsite} /> */}
                   <Card.Content>
                     <Heading size={5}>BudgetBuddy</Heading>
                     <p className="project-stack">React Native, Java</p>
